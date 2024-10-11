@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Decorated Document</title>
+    <link rel="stylesheet" href="home.css">
+</head>
+
+<body>
+    <div class="grid-container">
+        <div class="grid-item NAVBAR">Navbar</div>
+        <div class="grid-item IMAGE">Image Section</div>
+        <div class="grid-item NEWS">Latest News</div>
+        <div class="grid-item ABOUT-US">About Us</div>
+        <div class="grid-item LOGIN">Login</div>
+        <div class="grid-item FOOTER">Footer Section</div>
+        <div class="grid-item COPYRIGHT">© 2024 Your Company</div>
+    </div>
+    <div id="loginModal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <h2>Login</h2>
+            <form action="/login" method="post">
+                <label for="username">Username:</label>
+                <input type="text" id="username" name="username" placeholder="Enter Username" required>
+
+                <label for="password">Password:</label>
+                <input type="password" id="password" name="password" placeholder="Enter Password" required>
+
+                <button type="submit">Login</button>
+            </form>
+        </div>
+    </div>
+</body>
+
+</html>
