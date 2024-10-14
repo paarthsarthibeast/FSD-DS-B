@@ -29,3 +29,24 @@ function validate(){
     }
 }
 
+// let a = 12;
+// let b = "12";
+// console.log(a==b);
+// console.log(a===b);
+
+let c=() =>{
+    console.log("Hello");
+}
+c();
+
+let d=(x,y) =>{
+    return(x+y);
+}
+let e=d(12,54);
+console.log(e);
+
+function display(){
+    let p1 = document.querySelector("p");
+    p1.innerHTML = "Result";
+    p1.style.backgroundColor = "red";
+}
