@@ -44,7 +44,7 @@ function ImageApp() {
       <button
         className="btn"
         onClick={() => {
-          setHeight(height + 10);
+          setHeight(height - 10);
         }}>
         Decrease Height
       </button>

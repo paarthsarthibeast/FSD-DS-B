@@ -32,6 +32,10 @@ function fetchData() {
 fetchData()
 .then ((data) => {
     let sum = data.map((x) => x.score).reduce((x,y) => x+y,0);
+    let x=0;
+    data.forEach((element) => {
+        x.element 
+    })
     console.log(sum);
 })
 .catch((err) => {
