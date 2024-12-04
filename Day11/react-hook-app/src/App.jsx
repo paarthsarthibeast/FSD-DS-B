@@ -16,10 +16,6 @@ function App() {
         </Routes>
       </BrowserRouter>
     </div>
-    // <div>
-    //   <ImageApp />
-    //   <CounterApp />
-    // </div>
   );
 }
 

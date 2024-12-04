@@ -9,7 +9,7 @@ body {
     margin: 0;
   }
   
-  div {
+  div{
     text-align: center;
     background-color: #ffffffcc; /* Slightly transparent white */
     padding: 20px;
@@ -36,28 +36,28 @@ body {
   }
   
   /* Specific button colors */
-  .btn:nth-child(2) { /* Increase Width */
+  .btn:nth-child(1) { /* Increase Width */
     background-color: #28a745; /* Green */
   }
   
-  .btn:nth-child(3) { /* Increase Height */
+  .btn:nth-child(2) { /* Increase Height */
     background-color: #17a2b8; /* Teal */
   }
   
-  .btn:nth-child(4) { /* Decrease Width */
+  .btn:nth-child(3) { /* Decrease Width */
     background-color: #ffc107; /* Yellow */
     color: black;
   }
   
-  .btn:nth-child(5) { /* Decrease Height */
+  .btn:nth-child(4) { /* Decrease Height */
     background-color: #fd7e14; /* Orange */
   }
   
-  .btn:nth-child(6) { /* Rotate ClockWise */
+  .btn:nth-child(5) { /* Rotate ClockWise */
     background-color: #007bff; /* Blue */
   }
   
-  .btn:nth-child(7) { /* Rotate AntiClockWise */
+  .btn:nth-child(6) { /* Rotate AntiClockWise */
     background-color: #dc3545; /* Red */
   }
   

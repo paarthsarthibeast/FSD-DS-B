@@ -1,50 +1,59 @@
 /* CounterApp.css */
+
 .disp {
     text-align: center;
     margin: 20px;
     display: flex;
     align-items: center;
     justify-content: center;
+    background: linear-gradient(to right, #6a82fb, #fc5c7d); /* Gradient background */
 }
 
-.divbox{
-    background-color: White;
-    padding: 5rem;
-    box-shadow: 5px 5px 5px rgba(92, 92, 92, 0.5);
+.divbox {
+    background-color: white;
+    padding: 3rem;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+    border-radius: 15px; /* Add rounded corners */
 }
 
 h1 {
     font-size: 3em;
     margin-bottom: 20px;
+    color: #34495e;
 }
 
 .btn {
     font-size: 1.5em;
-    padding: 10px 20px;
-    margin: 5px;
+    padding: 15px 30px;
+    margin: 10px;
     border: none;
     border-radius: 5px;
     cursor: pointer;
     color: white;
+    transition: background-color 0.3s ease, transform 0.3s ease;
 }
 
-/* Specific button colors */
-.btn:nth-child(2) { /* Increment button */
-    background-color: #28a745; /* Green */
+  /* Specific button colors */
+  .btn:nth-child(1) { /* Increment button */
+    background-color: #27ae60; /* Green */
 }
 
-.btn:nth-child(3) { /* Reset button */
-    background-color: #dc3545; /* Red */
+  .btn:nth-child(2) { /* Reset button */
+    background-color: #e74c3c; /* Red */
 }
 
-.btn:nth-child(4) { /* Decrement button */
-    background-color: #007bff; /* Blue */
+  .btn:nth-child(3) { /* Decrement button */
+    background-color: #2980b9; /* Blue */
 }
 
 .btn:hover {
     background-color: #ddd;
+    color: #333;
+    transform: scale(1.05);
 }
 
 .btn:active {
     background-color: #ccc;
+    color: #111;
+    transform: scale(0.95);
 }
